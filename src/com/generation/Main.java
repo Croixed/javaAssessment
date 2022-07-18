@@ -66,7 +66,7 @@ public class Main
             return;
         }
         System.out.println( course );
-        // add if here later to check if student is already enrolled to this course
+        // added if here later to check if student is already enrolled to this course
         if(student.isAttendingCourse(course))
         {
             System.out.println("Student is already enrolled to this course(main)");
